@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Payment Form</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/script.js" defer></script>
+  </head>
+
+  <header>
+    <div id="navbar">
+      <nav>
+        <div id="logo">
+          <img src="img/Afro Street art logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="clientRegistrationForm.html">Client Registration</a></li>
+          <li><a href="clientpaymentForm.html">Client Payment</a></li>
+          <li><a href="orderSubmit.html">Order Submit</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="play.html">Play</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+    <section>
+      <div id="client-info">
+
+      </div>
+
+      <div id="products-list">
+
+      </div>
+      <div id="total-due">
+
+      </div>
+      <h1>Client Payment Form</h1>
+      <form id="paymentForm">
+        <div id="client-info"></div>
+        <label for="CardName">Name on Card:</label>
+        <input type="text" id="CardName" name="CardName" required />
+        <label for="CardType">Card type:</label>
+        <select id="CardType" name="creditCardType" required>
+          <option value="Visa">Visa</option>
+          <option value="MasterCard">MasterCard</option>
+        </select>
+        <label for="creditCardNumber">Card number:</label>
+        <input
+          type="text"
+          id="CardNumber"
+          name="CardNumber"
+          pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|[25][1-7][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"
+          title="Credit card number must be 16 digits"
+          required
+        />
+        <label for="expMonth">Expiration month:</label>
+        <select id="expMonth" name="expMonth" required>
+          <option value="00">00</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <label for="expYear">Expiration year:</label>
+        <select id="expYear" name="expYear" required>
+          <option value="00">00</option>
+          <option value="24">25</option>
+          <option value="25">26</option>
+          <option value="26">27</option>
+          <option value="27">28</option>
+          <option value="28">29</option>
+          <option value="29">30</option>
+        </select>
+        <label for="cvcNumber">CVC number:</label>
+        <input
+          type="text"
+          id="cvcNumber"
+          name="cvcNumber"
+          pattern="\d{3}"
+          title="CVC number must be 3 digits"
+          required
+        />
+        <div id="total-due"></div>
+        <button id="submitPay">Pay</button>
+      </form>
+    </section>
+    <footer>
+      <section>
+        <h2>Contact Details</h2>
+        <p>Phone: 0743865414</p>
+        <p>Email: kekanateblelo@gmail.com</p>
+        <p>Addresss: 11 Outeniqua Rd, Eastvale, Springs, 1559</p>
+      </section>
+    </footer>
+  </body>
+</html>

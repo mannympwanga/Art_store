@@ -1,0 +1,101 @@
+[
+    {
+        "staffNumber": "001",
+        "firstName": "Tebalelo",
+        "lastName": "Kekana",
+        "jobDescription": "Manager",
+        "workPhoneNumber": "0743865414",
+        "workEmailAddress": "kekanateblelo@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.21.46.jpeg"
+    },
+
+    {
+        "staffNumber": "002",
+        "firstName": "David",
+        "lastName": "Sara",
+        "jobDescription": "Head of Design",
+        "workPhoneNumber": "0817548996",
+        "workEmailAddress": "davidsara@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.45.jpeg"
+    },
+
+    {
+        "staffNumber": "003",
+        "firstName": "John",
+        "lastName": "Dube",
+        "jobDescription": "Designer",
+        "workPhoneNumber": "0735652112",
+        "workEmailAddress": "johnd@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.30.36.jpeg"
+    },
+
+    {
+        "staffNumber": "004",
+        "firstName": "Daniel",
+        "lastName": "Van Der Bokkie",
+        "jobDescription": "HR Manager",
+        "workPhoneNumber": "0612456987",
+        "workEmailAddress": "danielvanderbokkie@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.46 (2).jpeg"
+    },
+
+    {
+        "staffNumber": "005",
+        "firstName": "Chris",
+        "lastName": "Martin",
+        "jobDescription": "Casheir",
+        "workPhoneNumber": "0893226874",
+        "workEmailAddress": "martinchris@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.45 (2).jpeg"
+    },
+
+    {
+        "staffNumber": "006",
+        "firstName": "Manny",
+        "lastName": "Asce",
+        "jobDescription": "Designer",
+        "workPhoneNumber": "0735412587",
+        "workEmailAddress": "mannyasce@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.45 (1).jpeg"
+    },
+
+    {
+        "staffNumber": "007",
+        "firstName": "Luffy D",
+        "lastName": "Monkey",
+        "jobDescription": "Designer",
+        "workPhoneNumber": "0743987897",
+        "workEmailAddress": "monkeydluffy@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.46 (1).jpeg"
+    },
+
+    {
+        "staffNumber": "008",
+        "firstName": "Naruto",
+        "lastName": "Uzumaki",
+        "jobDescription": "Project Manager",
+        "workPhoneNumber": "0815559784",
+        "workEmailAddress": "narutouzumaki@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.46 (3).jpeg"
+    },
+
+    {
+        "staffNumber": "009",
+        "firstName": "Kevin",
+        "lastName": "De Bruyne",
+        "jobDescription": "Team Lead",
+        "workPhoneNumber": "0664586987",
+        "workEmailAddress": "kevindebruyne@gmail.com",
+        "image": "img/WhatsApp Image 2024-09-25 at 18.28.46.jpeg"
+    },
+
+    {
+        "staffNumber": "010",
+        "firstName": "Pete",
+        "lastName": "Bas",
+        "jobDescription": "Customer Support",
+        "workPhoneNumber": "0726549876",
+        "workEmailAddress": "petebas@gmail.com",
+        "image": "img/testimonial-1.png"
+    }
+]

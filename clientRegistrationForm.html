@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Registration Form</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/script.js" defer></script>
+  </head>
+
+  <header>
+    <div id="navbar">
+      <nav>
+        <div id="logo">
+          <img src="img/Afro Street art logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="clientRegistrationForm.html">Client Registration</a></li>
+          <li><a href="clientpaymentForm.html">Client Payment</a></li>
+          <li><a href="orderSubmit.html">Order Submit</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="play.html">Play</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <section>
+      <h1>Client Registration Form</h1>
+      <form id="registrationForm">
+        <label for="preferredName">Preferred Name:</label>
+        <input type="text" id="preferredName" name="preferredName" required />
+
+        <label for="fullName">Client Full Names as on ID:</label>
+        <input type="text" id="fullName" name="fullName" required />
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required />
+
+        <label for="idNumber">ID Number:</label>
+        <input
+          type="text"
+          id="idNumber"
+          name="idNumber"
+          pattern="\d{13}"
+          title="ID Number must be 13 digits"
+          required
+        />
+
+        <label for="telephoneWork">Telephone Work:</label>
+        <input
+          type="tel"
+          id="telephoneWork"
+          name="telephoneWork"
+          pattern="^\d{10}$"
+          title="Telephone number must be 10 digits"
+          required
+        />
+
+        <label for="cellphoneNumber">Cellphone Number:</label>
+        <input
+          type="tel"
+          id="cellphoneNumber"
+          name="cellphoneNumber"
+          pattern="^\d{10}$"
+          title="Cellphone number must be 10 digits"
+          required
+        />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="homeAddress">Home address:</label>
+        <textarea id="homeAddress" name="homeAddress" required></textarea>
+
+        <label for="postalAddress">Postal address:</label>
+        <textarea id="postalAddress" name="postalAddress"></textarea>
+        <input type="checkbox" id="sameAsHome" name="sameAsHome" />
+        <label for="sameAsHome">Same as home address</label>
+
+        <label for="referralSource">Where did you hear about us?</label>
+        <input type="text" id="referralSource" name="referralSource" required />
+
+        <label for="password">Passwword</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          title="Passwword"
+          required
+        />
+        <span id="passwordValidationMessage" style="color: red"></span
+        ><br /><br />
+        <input id="submitButton" type="submit" value="Submit" />
+      </form>
+
+      <h2>Last Visited Date</h2>
+      <p id="last-visited"></p>
+    </section>
+  </body>
+
+  <footer>
+    <section>
+      <h2>Contact Details</h2>
+      <p>Phone: 0743865414</p>
+      <p>Email: kekanateblelo@gmail.com</p>
+      <p>Addresss: 11 Outeniqua Rd, Eastvale, Springs, 1559</p>
+    </section>
+  </footer>
+</html>
